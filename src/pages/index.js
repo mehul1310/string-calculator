@@ -1,3 +1,9 @@
+import StringCalculator from '../components/StringCalculator';
+
 export default function Home() {
-  return <div>Welcome to the String Calculator!</div>;
+  return (
+      <div>
+        <StringCalculator />
+      </div>
+  );
 }
